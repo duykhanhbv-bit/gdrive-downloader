@@ -1,0 +1,37 @@
+# Dữ liệu tải về & kết quả
+downloads/
+*.mp4
+*.mp3
+*.m4a
+*.webm
+*.docx
+*.xlsx
+*.pptx
+*.pdf
+
+# Cookie / phiên đăng nhập / bí mật (KHÔNG BAO GIỜ commit)
+cookies.sqlite*
+ff_cookies.json
+*cookies*.json
+*cookies*.txt
+*.cookies
+.env
+.env.*
+*secret*
+*token*.json
+credentials*.json
+
+# Nhật ký prompt cá nhân (cục bộ)
+.agent/history/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Hệ thống
+Thumbs.db
+desktop.ini
+.DS_Store
