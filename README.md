@@ -2,6 +2,11 @@
 
 [English](README.en.md) • **Tiếng Việt**
 
+![Python 3](https://img.shields.io/badge/Python-3-blue?logo=python&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![Playwright](https://img.shields.io/badge/Playwright-automation-45ba4b?logo=playwright&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+
 Công cụ dòng lệnh tải mọi loại tài nguyên Google Drive và Google Workspace về máy: file thường, PDF, video DASH (tách hình và tiếng), Google Docs, Sheets, Slides và thư mục. Công cụ vẫn tải được các file bị khóa chỉ cho xem (view-only), khóa nút Tải/In/Sao chép.
 
 ## Tính năng
@@ -16,7 +21,7 @@ Công cụ dòng lệnh tải mọi loại tài nguyên Google Drive và Google 
 
 ## Cài đặt
 
-Yêu cầu: Python 3, Firefox đã đăng nhập tài khoản Google, và các công cụ sau có trong `PATH`:
+Yêu cầu: Python 3, Firefox đã đăng nhập tài khoản Google, và các công cụ sau có trong `PATH`. Code tự dò hồ sơ Firefox trên Windows, macOS và Linux, nhưng mới được kiểm thử thực tế trên Windows.
 
 - `ffmpeg` và `ffprobe` (ghép video, kiểm tra file)
 - `yt-dlp` (đường tải nhanh cho video)

@@ -2,6 +2,11 @@
 
 **English** • [Tiếng Việt](README.md)
 
+![Python 3](https://img.shields.io/badge/Python-3-blue?logo=python&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![Playwright](https://img.shields.io/badge/Playwright-automation-45ba4b?logo=playwright&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+
 A command-line tool that downloads any Google Drive and Google Workspace resource to your machine: regular files, PDFs, DASH videos (video and audio are separate streams), Google Docs, Sheets, Slides, and folders. It also handles view-only files where the Download, Print, and Copy buttons are disabled.
 
 ## Features
@@ -16,7 +21,7 @@ A command-line tool that downloads any Google Drive and Google Workspace resourc
 
 ## Installation
 
-Requirements: Python 3, Firefox signed in to your Google account, and these tools on your `PATH`:
+Requirements: Python 3, Firefox signed in to your Google account, and these tools on your `PATH`. The code discovers the Firefox profile on Windows, macOS, and Linux, but it has only been tested on Windows.
 
 - `ffmpeg` and `ffprobe` (merging video, checking files)
 - `yt-dlp` (fast path for videos)
